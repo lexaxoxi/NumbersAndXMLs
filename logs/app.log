@@ -1,0 +1,259 @@
+17:24:38.849 [main] INFO  ApplicationMain - ApplicationMain start
+17:24:38.866 [main] INFO  ApplicationMain - Loading application properties
+17:24:38.880 [main] INFO  ApplicationMain - ApplicationMain properties successfully loaded
+17:24:38.883 [main] INFO  Dao - Start filling the database
+17:24:39.356 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:25:25.355 [main] INFO  ApplicationMain - ApplicationMain start
+17:25:25.358 [main] INFO  ApplicationMain - Loading application properties
+17:25:25.360 [main] INFO  ApplicationMain - ApplicationMain properties successfully loaded
+17:25:25.363 [main] INFO  Dao - Start filling the database
+17:25:26.087 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:26:04.471 [main] INFO  ApplicationMain - ApplicationMain start
+17:26:04.475 [main] INFO  ApplicationMain - Loading application properties
+17:26:04.477 [main] INFO  ApplicationMain - ApplicationMain properties successfully loaded
+17:26:04.480 [main] INFO  Dao - Start filling the database
+17:26:05.224 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:26:28.046 [main] INFO  ApplicationMain - ApplicationMain start
+17:26:28.049 [main] INFO  ApplicationMain - Loading application properties
+17:26:28.050 [main] INFO  ApplicationMain - ApplicationMain properties successfully loaded
+17:26:28.053 [main] INFO  Dao - Start filling the database
+17:26:28.752 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:29:08.592 [main] INFO  ApplicationMain - ApplicationMain start
+17:29:08.598 [main] INFO  ApplicationMain - Loading application properties
+17:29:08.600 [main] INFO  ApplicationMain - ApplicationMain properties successfully loaded
+17:29:08.606 [main] INFO  Dao - Start filling the database
+17:29:09.289 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:37:33.378 [main] INFO  ApplicationMain - Application start
+17:37:33.382 [main] INFO  ApplicationMain - Loading application properties
+17:37:33.384 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:37:33.387 [main] INFO  Dao - Start filling the database
+17:37:34.114 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "postgres" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ) (pgjdbc: autodetected server-encoding to be windows-1251, if the message is not readable, please check database logs and/or host, port, dbname, user, password, pg_hba.conf)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:38:14.338 [main] INFO  ApplicationMain - Application start
+17:38:14.342 [main] INFO  ApplicationMain - Loading application properties
+17:38:14.343 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:38:14.346 [main] INFO  Dao - Start filling the database
+17:38:15.579 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:38:31.280 [main] INFO  ApplicationMain - Application start
+17:38:31.283 [main] INFO  ApplicationMain - Loading application properties
+17:38:31.285 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:38:31.287 [main] INFO  Dao - Start filling the database
+17:38:31.998 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:40:33.100 [main] INFO  ApplicationMain - Application start
+17:40:33.103 [main] INFO  ApplicationMain - Loading application properties
+17:40:33.105 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:40:33.108 [main] INFO  Dao - Start filling the database
+17:40:33.840 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:40:49.389 [main] INFO  ApplicationMain - Application start
+17:40:49.392 [main] INFO  ApplicationMain - Loading application properties
+17:40:49.394 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:40:49.397 [main] INFO  Dao - Start filling the database
+17:40:50.217 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:40:52.342 [main] INFO  ApplicationMain - Application start
+17:40:52.347 [main] INFO  ApplicationMain - Loading application properties
+17:40:52.352 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:40:52.356 [main] INFO  Dao - Start filling the database
+17:40:53.195 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:42:00.333 [main] INFO  ApplicationMain - Application start
+17:42:00.337 [main] INFO  ApplicationMain - Loading application properties
+17:42:00.343 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:42:00.346 [main] INFO  Dao - Start filling the database
+17:42:01.150 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "test" пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+17:49:56.486 [main] INFO  ApplicationMain - Start
+17:49:56.489 [main] INFO  ApplicationMain - Loading application properties
+17:49:56.491 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:49:56.494 [main] INFO  Dao - Start input database
+17:49:56.752 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: Случилось что-то необычное, что заставило драйвер произвести ошибку. Пожалуйста сообщите это исключение.
+	at org.postgresql.Driver.connect(Driver.java:285)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Dao.inputDB(Dao.java:43)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
+Caused by: java.lang.IllegalArgumentException: Null value for 'password'
+	at org.postgresql.shaded.com.ongres.scram.common.util.Preconditions.checkNotNull(Preconditions.java:41)
+	at org.postgresql.shaded.com.ongres.scram.common.util.Preconditions.checkNotEmpty(Preconditions.java:55)
+	at org.postgresql.shaded.com.ongres.scram.client.ScramSession$ServerFirstProcessor.clientFinalProcessor(ScramSession.java:128)
+	at org.postgresql.jre7.sasl.ScramAuthenticator.processServerFirstMessage(ScramAuthenticator.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:778)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	... 5 common frames omitted
+17:50:18.175 [main] INFO  ApplicationMain - Start
+17:50:18.178 [main] INFO  ApplicationMain - Loading application properties
+17:50:18.179 [main] INFO  ApplicationMain - Application properties successfully loaded
+17:50:18.182 [main] INFO  Dao - Start input database
+17:50:18.977 [main] ERROR Dao - Connection to DB failed
+org.postgresql.util.PSQLException: ОШИБКА: отношение "test" не существует
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at Dao.inputDB(Dao.java:48)
+	at Service.doAllTasks(Service.java:49)
+	at ApplicationMain.main(ApplicationMain.java:17)
